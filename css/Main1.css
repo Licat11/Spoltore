@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.container {
+	padding-top: 120px;
+}
+
+body {
+	background: linear-gradient(90deg, rgba(0,0,0,0.5354516806722689) 50%, rgba(213,196,36,0.4290091036414566) 100%), url('../images/back/squadra.jpg') no-repeat center / cover;
+}
+
+.input-group {
+	max-width: 500px;
+}
