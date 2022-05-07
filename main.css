@@ -1,0 +1,25 @@
+.banner{
+
+  padding: 100px 0;
+
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('images/foto/carosello 1.jpg');
+
+  background-size: cover;
+
+  background-position: center;
+
+  color:#ffff;
+
+}
+
+.rooster {
+  padding: 60px 0;
+}
+
+.rooster .card{
+  margin-bottom: 20px;
+}
+
+.rooster .card-body {
+  height: 160px;
+}
