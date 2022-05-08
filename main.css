@@ -11,6 +11,21 @@
   color:#ffff;
 
 }
+.button-middle{
+  color: goldenrod;
+}
+
+.card-text {
+  font-weight: bold;
+  font-family: Copperplate;
+  text-transform: uppercase;
+}
+
+.number{
+  font-size: large;
+  font-weight: bold;
+  color: goldenrod;
+}
 
 .rooster {
   padding: 60px 0;
