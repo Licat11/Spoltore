@@ -62,7 +62,7 @@
 
         <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
 
-          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#registration">Registrati</button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#registration">Parlaci di te</button>
 
           <a class="btn btn-dark" href="#rooster" role="button">Il Rooster</a>
 
@@ -457,16 +457,59 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Supporta la squadra</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+              <form>
+                <div class="row pb-4">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Cognome" aria-label="Last name">
+                  </div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Città" aria-label="City">
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Provincia" aria-label="State">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Lascia un messaggio alla squadra</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Scrivi qui...">
+                  </div>
+                  <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-4 pt-0">Come ci segui:</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Dal Vivo
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Solo sui social
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                          Sempre, anche in trasferta
+                        </label>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-dark text-warning">Invia</button>
+              </div>
+            </form>
+            </div>            
           </div>
         </div>
       </div>
