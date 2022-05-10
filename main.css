@@ -11,7 +11,12 @@
   color:#ffff;
 
 }
-.button-middle{
+
+.dropdown-menu .info-D {
+  font-weight: bold;
+}
+
+.button-middle {
   color: goldenrod;
 }
 
