@@ -9,20 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <title>Mediterranea Volley Spoltore 2021/2022</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="C:/Users/Sergio/Desktop/ACERBA/progetto con bootstrap Spoltore/images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
 
     <!-- .......NAVBAR..............-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/icone/logo coach (1).png" alt="" width="80" height="80" class="d-inline-block align-text-center">
@@ -32,19 +33,16 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#rooster">Rooster</a>
+              <a class="nav-link" href="#Contact">Contatti</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contatti</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#About">About</a>
             </li>
           </ul>
           </form>
@@ -52,18 +50,19 @@
       </div>
     </nav>
     <!-- .......NAVBAR..............-->
+ 
     <!-- .......Banner..............-->
     <div class="banner text-md-center">
 
       <div class="container-fluid py-5">
 
-        <h1 class="display-5 fw-normal">Mediterranea Volley Spoltore</h1>
+        <h1 class="display-5 fw-normal"><strong>Mediterranea Volley Spoltore</strong></h1>
 
-        <p class="col fs-4">La stagione 2021/2022 prima volta in serie D</p>
+        <p class="col fs-4"><strong>La stagione 2021/2022 prima volta in serie D</strong></p>
 
         <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
 
-          <button type="button" class="btn btn-warning">Registrati</button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#registration">Registrati</button>
 
           <a class="btn btn-dark" href="#rooster" role="button">Il Rooster</a>
 
@@ -90,37 +89,110 @@
             <p class="description pt-3">Come il campionato di Serie C, anche quello di Serie D è organizzato dai Comitati Regionali della FIPAV. Anche in questo caso, le squadre della Valle d'Aosta vengono inserite nei gironi piemontesi. </p> <p>Ogni Comitato Regionale stabilisce i calendari dei gironi di propria competenza e i criteri per la promozione anche attraverso play-off. I Comitati Regionali stabiliscono inoltre le retrocessioni in Prima Divisione.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 pb-3 border border-warning">
-            <h3 class="text-center pt-3 b-3">Campionati disputati</h3>
-            <img src="images/icone/Pallavolo logo.png" alt="" width="117" height="80" class="rounded mx-auto d-block"> 
-            <ul class="list-group pt-4 text-center">
-              <li class="list-group-item list-group-item-warning">Minivolley</li>
-              <li class="list-group-item list-group-item-secondary">Under 12</li>
-              <li class="list-group-item list-group-item-warning">Under 16</li>
-              <li class="list-group-item list-group-item-secondary">Seconda Divisione</li>
-              <li class="list-group-item list-group-item-warning">Amatoriale</li>
-            </ul>
-          </div>
+            <h3 class="text-center pt-3 pb-3" id="Contact">Campionati disputati</h3>
+            <img src="images/icone/Pallavolo logo.png" alt="" width="117" height="80" class="rounded mx-auto d-block">
+            <div class="accordion accordion-flush pt-4" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Minivolley
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Il Minivolley è un gioco-sport per bambini (indicativamente dai 5 ai 12 anni)</strong> dove confluiscono e si amalgamano gli schemi motori statici e dinamici, le capacità condizionali, le capacità coordinative,gli aspetti della sfera cognitiva e quelli emozionali. Essi concorrono tutti insieme a conseguire nuove abilità motorie e a determinare il comportamento motorio-relazionale che rappresenta una delle forme di espressione e di comunicazione della personalità dell'allievo.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Under 12
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Campionato promozionale per gli atleti nati tra il 2010 e il 2011.</strong> Le squadre possono essere formate da soli maschi, sole femmine o miste in formule diverse come 3x3. L'altezza della rete : m.2.05, una misura del campo inferiore (6x6) e si utilizzano palloni con una grammatura inferiore o uguale a 230. In queste manifestazioni l’arbitro potrà essere un allenatore o un dirigente. Le gare sono disputate sul meglio dei tre set e la vittoria 2-0 vale 3 punti, il risultato 2-1 porta due punti alla vincente e uno alla sconfitta.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Under 16
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Campionato di categoria comprensivo di fasi nazionali per gli atleti al massimo tra il 2006/2007.</strong> La squadra comprende la figura del libero, il campo è regolamentale e con l'altezza della rete fissa a m.2,24. Si disputano le gare al meglio dei 5 set. La vittoria 3-0 e 3-1 danno 3 punti, il risultato 3-2 porta due punti alla vincente e uno alla sconfitta.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Seconda Div
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Campionato di divisione che ricade sotto il Comitato Territoriale Abruzzo Sud-Est</strong> La squadra comprende la figura del libero, il campo è regolamentale e con l'altezza della rete che è fissata a m.2,24. Si disputano le gare al meglio dei 5 set. La vittoria 3-0 e 3-1 danno 3 punti, il risultato 3-2 porta due punti alla vincente e uno alla sconfitta.
+                    Le prime 4 al termine della Regular Season potranno disputare i Play-Off per la promozione alla Prima Divisione. Nono sono contemplate retrocessioni.
+                    </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Amatoriale
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Campionato amatoriale che ricade sotto il Comitato CSEN Abruzzo</strong> Le squadre sono miste con il massimo di 3 atleti maschi da schierare contemporaneamente in campo.
+                    L'altezza della rete è fissata a m.2,30.
+                    Le gare sono disputate sul meglio dei tre set e la vittoria 2-0 vale 3 punti, il risultato 2-1 porta due punti alla vincente e uno alla sconfitta.
+                    </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Serie D
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Campionato di divisione che ricade sotto il Comitato Regionale Abruzzo</strong> La squadra comprende la figura del libero, il campo è regolamentale e con l'altezza della rete che è fissata a m.2,24. Si disputano le gare al meglio dei 5 set. La vittoria 3-0 e 3-1 danno 3 punti, il risultato 3-2 porta due punti alla vincente e uno alla sconfitta.
+                    Le prime 4 al termine della Regular Season potranno disputare i Play-Off per la promozione in Serie C; dalla quinta alla decima, sia del girone A che B, approderanno ai Play-Out per evitare la retrocessione in Prima Divisione.
+                    </div>
+                </div>
+              </div>
+            </div>
 
-        </div>
+      </div>
 
 
         <div class="row">
           <div class="col-12 col-md-12 col-lg-4 btn-group btn-group-lg justify-content-center pt-3" role="group" aria-label="Basic example">
-            <button type="button" class="button-middle btn btn-outline-dark btn-lg">Seguici su Facebook</button>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 btn-group justify-content-center pt-3" role="group">
+            <a class="btn btn-outline-dark button-middle" target="blank" href="https://www.facebook.com/mediterraneavolleyspoltore" role="button">Seguici su Facebook</a>
+            </div>
+           <div class="col-12 col-md-6 col-lg-4 btn-group justify-content-center pt-3" role="group">
             <button id="btnGroupDrop1" type="button" class="button-middle btn btn-outline-dark btn-lg dropdown-toggle align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
-              Info Serie D
-            </button>
+                Info Serie D</button>
             <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-              <li><a class="dropdown-item" href="#">Classifica</a></li>
-              <li><a class="dropdown-item" href="#">Calendario</a></li>
+              <li><a class="dropdown-item info-D" target="blank" href="https://fipavonline.it/main/classifica/35796">Classifica Regular Season</a></li>
+              <li><a class="dropdown-item info-D" target="blank" href="https://fipavonline.it/main/gare_girone/35796">Calendario Regular Season</a></li>
+              <li><a class="dropdown-item info-D" target="blank" href="https://fipavonline.it/main/classifica/39133">Classifica Play-Out</a></li>
+              <li><a class="dropdown-item info-D" target="blank" href="https://fipavonline.it/main/gare_girone/39133">Calendario Play-Out</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-6 col-lg-4 btn-group btn-group-lg justify-content-center pt-3" role="group" aria-label="Basic example">
-            <button type="button" class="button-middle btn btn-outline-dark btn-lg">Le altre squadre</button>
+            <button type="button" class="button-middle btn btn-outline-dark btn-lg">Tutte le formazioni</button>
           </div>
-        </div>
+
+
+  </div>
 
 
         <!-- .......Info..............-->
@@ -130,7 +202,7 @@
         <div id="rooster" class="rooster">
           <h2 class="text-center">Il Rooster</h2>
           <div class="row pt-5 text-center">
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
+            <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="card">
                 <h4 class="card-title">Peluso Sergio</h4>
                 <img src="images/rooster/Peluso.png" class="card-img-top" alt="...">
@@ -312,7 +384,7 @@
         <!-- .......rooster..............-->
 
         <!-- .......About e Newsletter..............-->
-        <div class="row py-4 text-muted align-items-center">
+        <div class="row py-4 text-muted align-items-center" id="About">
 
           <div class="col">
 
@@ -347,10 +419,10 @@
         <div class="col-md-7">
           <ul class="nav justify-content-center justify-content-md-start">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Community</a>
+              <a class="nav-link active" aria-current="page" target="blank" href="https://www.facebook.com/mediterraneavolleyspoltore">Facebook</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Coach-Sergio</a>
+              <a class="nav-link" href="#top">Torna su</a>
             </li>
             <li class="nav-item">
               <div class="btn-group dropup">
@@ -358,8 +430,14 @@
                 Articoli Spoltore Notizie
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Prima</a></li>
-                <li><a class="dropdown-item" href="#">Seconda</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-spoltore-festeggia-la-serie-d.html">Spoltore festeggia la Serie D</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-spoltore-subito-nella-storia-vittoria-allesordio-in-serie-d.html">Spoltore subito nella storia, vittoria all’esordio in Serie D</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/le-lupe-della-pallavolo-tornano-a-ululare-tortoreto-battuta-3-1.html">Tortoreto battuta 3-1</a></li>                
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-spoltore-cade-in-casa-della-capolista-3-0.html">Spoltore cade in casa della capolista</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-farmacia-sebastiani-da-sogno-espugnata-montesilvano.html">Espugnata Montesilvano</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-raciti-adesso-stiamo-dimostrando-chi-siamo-davvero.html">Raciti: “Adesso stiamo dimostrando chi siamo davvero”</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-serie-d-farmacia-sebastiani-si-arrende-al-castelnuovo.html">Farmacia Sebastiani si arrende al Castelnuovo</a></li>
+                <li><a class="dropdown-item" target="blank" href="https://www.spoltorenotizie.it/sport/pallavolo-farmacia-sebastiani-vince-a-pineto-ma-quanta-fatica.html">Farmacia Sebastiani vince a Pineto</a></li>
             </li>
             </ul>
             </ul>
@@ -372,8 +450,27 @@
 
         <!-- .......Footer..............-->
 
-      </div> <!-- .......Div del container..............-->
+</div> <!-- .......Div del container..............-->
 
+      <!-- Modal -->
+      <div class="modal fade" id="registration" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
 
       <!-- Bundle JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
