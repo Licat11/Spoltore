@@ -9,7 +9,6 @@
   background-position: center;
 
   color:#ffff;
-
 }
 
 .dropdown-menu .info-D {
@@ -41,5 +40,9 @@
 }
 
 .rooster .card-body {
-  height: 160px;
+  
+}
+
+.btn-titol {
+  font-weight: bold;
 }
