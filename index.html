@@ -187,12 +187,19 @@
                 <li><a class="dropdown-item info-D" target="blank" href="https://fipavonline.it/main/gare_girone/39133">Calendario Play-Out</a></li>
               </ul>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 btn-group btn-group-lg justify-content-center pt-3" role="group" aria-label="Basic example">
-              <button type="button" class="button-middle btn btn-outline-dark btn-lg">Tutte le formazioni</button>
+             <div class="col-12 col-md-6 col-lg-4 btn-group btn-group-lg justify-content-center pt-3" role="group">
+              <button id="btnGroupDrop1" type="button" class="button-middle btn btn-outline-dark btn-lg dropdown-toggle align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+              Tutte le formazioni</button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item info-D" target="blank" data-bs-toggle="modal" data-bs-target="#U12">Under 12</a></li>
+                <li><a class="dropdown-item info-D" target="blank" data-bs-toggle="modal" data-bs-target="#U16">Under 16</a></li>
+                <li><a class="dropdown-item info-D" target="blank" data-bs-toggle="modal" data-bs-target="#SecDiv">Seconda Div</a></li>
+                <li><a class="dropdown-item info-D" target="blank" data-bs-toggle="modal" data-bs-target="#Amato">Amatoriale</a></li>
+                <li><a class="dropdown-item info-D" target="blank" data-bs-toggle="modal" data-bs-target="#SerieD">Serie D</a></li>
+              </ul>
             </div>
-
-
-          </div>
+            
+            </div>
 
 
           <!-- .......Info..............-->
@@ -1411,12 +1418,142 @@
                                         </div>
                                         <!-- Modal banner -->
 
+                                        <!-- Modal U12 -->
+                                        <div class="modal fade" id="U12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <div class="card text-center" style="width: 100%;">
+                                              <img src="images/squadre/Under_12.jpg" class="card-img-top img-fluid" alt="Under 16">
+                                              <div class="card-body">
+                                                <p class="card-text ">Under 12</p>
+                                              </div>
+                                            </div>                                              
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-between">
+                                              <img src="images/icone/logo_med.jpg" alt="" width="60" height="60" class="d-inline-block rounded">
+                                              <button type="button" class="btn btn-outline-warning btn-dark" data-bs-dismiss="modal">Chiudi</button>
+                                              <img src="images/icone/logo coach (1).png" alt="" width="70" height="70" class="d-inline-block rounded">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Modal U12 -->
+
+                                        <!-- Modal U16 -->
+                                        <div class="modal fade" id="U16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <div class="card text-center" style="width: 100%;">
+                                              <img src="images/squadre/Under_16.jpeg" class="card-img-top img-fluid" alt="Under 16">
+                                              <div class="card-body">
+                                                <p class="card-text ">Under 16</p>
+                                              </div>
+                                            </div>                                              
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-between">
+                                              <img src="images/icone/logo_med.jpg" alt="" width="60" height="60" class="d-inline-block rounded">
+                                              <button type="button" class="btn btn-outline-warning btn-dark" data-bs-dismiss="modal">Chiudi</button>
+                                              <img src="images/icone/logo coach (1).png" alt="" width="70" height="70" class="d-inline-block rounded">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Modal U16 -->
+
+                                      <!-- Modal SecDiv -->
+                                        <div class="modal fade" id="SecDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <div class="card text-center" style="width: 100%;">
+                                              <img src="images/squadre/SecDiv.jpg" class="card-img-top img-fluid" alt="Under 16">
+                                              <div class="card-body">
+                                                <p class="card-text ">Seconda Divisione</p>
+                                              </div>
+                                            </div>                                              
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-between">
+                                              <img src="images/icone/logo_med.jpg" alt="" width="60" height="60" class="d-inline-block rounded">
+                                              <button type="button" class="btn btn-outline-warning btn-dark" data-bs-dismiss="modal">Chiudi</button>
+                                              <img src="images/icone/logo coach (1).png" alt="" width="70" height="70" class="d-inline-block rounded">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Modal SecDiv -->
+
+                                      <!-- Modal Amato -->
+                                        <div class="modal fade" id="Amato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <div class="card text-center" style="width: 100%;">
+                                              <img src="images/squadre/Amatori.jpg" class="card-img-top img-fluid" alt="Under 16">
+                                              <div class="card-body">
+                                                <p class="card-text ">Amatoriale Misto</p>
+                                              </div>
+                                            </div>                                              
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-between">
+                                              <img src="images/icone/logo_med.jpg" alt="" width="60" height="60" class="d-inline-block rounded">
+                                              <button type="button" class="btn btn-outline-warning btn-dark" data-bs-dismiss="modal">Chiudi</button>
+                                              <img src="images/icone/logo coach (1).png" alt="" width="70" height="70" class="d-inline-block rounded">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Modal Amato -->
+
+                                      <!-- Modal SerieD -->
+                                        <div class="modal fade" id="SerieD" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <div class="card text-center" style="width: 100%;">
+                                              <img src="images/squadre/SerieD.jpg" class="card-img-top img-fluid" alt="Under 16">
+                                              <div class="card-body">
+                                                <p class="card-text ">Serie D</p>
+                                              </div>
+                                            </div>                                              
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-between">
+                                              <img src="images/icone/logo_med.jpg" alt="" width="60" height="60" class="d-inline-block rounded">
+                                              <button type="button" class="btn btn-outline-warning btn-dark" data-bs-dismiss="modal">Chiudi</button>
+                                              <img src="images/icone/logo coach (1).png" alt="" width="70" height="70" class="d-inline-block rounded">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Modal SerieD -->
+
                                         <!-- Modal Peluso -->
                                         <div class="modal fade" id="Info-Peluso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Peluso Sergio</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1461,7 +1598,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Odorisio Marta</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1505,7 +1642,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Panza Francesca</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1547,7 +1684,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Casimiri Alessia</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1588,7 +1725,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Berardi Giulia</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1629,7 +1766,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Semola Alessia</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1669,7 +1806,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Paris Ilaria</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1708,7 +1845,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Di Marcantonio Laura</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1747,7 +1884,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Damiani Sara</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1786,7 +1923,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Cinosi Greta</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1829,7 +1966,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Raciti Mariacristina</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1869,7 +2006,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Aceto Asia</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1907,7 +2044,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Iezzi Giulia</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1946,7 +2083,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Raciti Caterina</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -1985,7 +2122,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Damiani Raffaella</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
@@ -2026,7 +2163,7 @@
                                           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">De Filippo Ludovica</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Mediterranea Volley Spoltore</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
