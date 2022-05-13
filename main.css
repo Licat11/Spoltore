@@ -1,3 +1,20 @@
+.intro{
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.container-intro {
+padding-top: 220px;
+  }
+
+.intro{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5354516806722689) 50%, rgba(213,196,36,0.4290091036414566) 100%), 
+  url('images/back/squadra.jpg') no-repeat center / cover ;
+}
+
+.input-group {
+  max-width: 500px;
+}
+
 .banner{
 
   padding: 190px 0 100px;
@@ -19,6 +36,7 @@
   color: goldenrod;
 }
 
+
 .card-text {
   font-weight: bold;
   font-family: Copperplate;
@@ -37,10 +55,6 @@
 
 .rooster .card{
   margin-bottom: 20px;
-}
-
-.rooster .card-body {
-  
 }
 
 .btn-titol {
